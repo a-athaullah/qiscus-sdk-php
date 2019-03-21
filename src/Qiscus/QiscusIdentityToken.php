@@ -84,7 +84,7 @@ class QiscusIdentityToken
       ->set('prn', $user_id, false)
 
       // Configures the time that the token was issue (iat claim)
-      ->setIssuedAt($now)
+      ->setIssuedAt($now - 150)
 
       // Configures the time that the token can be used (nbf claim)
       ->setNotBefore($now - 120)
