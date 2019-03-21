@@ -1,10 +1,14 @@
 {
-  "name": "qiscus/qiscus-sdk-php",
-  "description": "Qiscus SDK Rest API implementation in PHP.",
+  "name": "a-athaullah/qiscus-sdk-php",
+  "description": "Qiscus SDK Rest API implementation in PHP. Forked",
   "keywords": ["qiscus", "qiscus sdk php"],
   "type": "library",
   "license": "MIT",
   "authors": [
+    {
+      "name": "Ahmad Athaullah",
+      "email": "ahmad.athaullah@gmail.com"
+    },
     {
       "name": "Qiscus",
       "email": "contact.us@qiscus.com"
