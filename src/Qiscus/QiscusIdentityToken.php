@@ -25,7 +25,7 @@ class QiscusIdentityToken
     $this->qiscus_sdk_secret = $qiscus_sdk_secret;
 
     $base_url = 'https://' . $qiscus_sdk_app_id . '.qiscus.com/';
-    if($stag) $base_url = 'https://api.stag.qiscus.com/';
+    if($stag) $base_url = 'https://api.qiscus.com/';
     $this->client = new \GuzzleHttp\Client(['base_uri' => $base_url]);
   }
 
